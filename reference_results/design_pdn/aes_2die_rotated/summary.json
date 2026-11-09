@@ -1,0 +1,196 @@
+{
+  "nodes_including_ground": 242055,
+  "edges": 323943,
+  "loads": 36238,
+  "edge_types": {
+    "contact": 116116,
+    "metal": 180444,
+    "diagonal_unresolved": 12182,
+    "via": 15180,
+    "package": 7,
+    "rdl": 7,
+    "bond": 7
+  },
+  "worst_drop_V": 0.043506549154010754,
+  "min_voltage_V": 1.0564934508459893,
+  "kcl_max_A": 6.906176239879994e-14,
+  "kcl_relative": 1.261239122044974e-12,
+  "load_power_W": 0.05874985465629411,
+  "resistive_loss_W": 0.0014829254022402966,
+  "source_power_W": 0.060232780077490604,
+  "power_balance_relative": 3.147155717387632e-10,
+  "provenance": {
+    "class": "design-derived hypothetical 3D assembly",
+    "dies": [
+      {
+        "file": "aes_export.sp.gz",
+        "sha256": "11e9f34c04f2bfd69dbdb7fde5b14c7d57a26c6fafaf6f97fb8e0fcc7816a1db",
+        "coordinate_unit_m": 5e-10,
+        "coordinate_evidence": "Nangate45_data_aes.def: UNITS DISTANCE MICRONS 2000",
+        "die_bbox_m": [
+          0.0,
+          0.0,
+          0.0006201499999999999,
+          0.0006205999999999999
+        ],
+        "width_coverage": {
+          "matched": 90152,
+          "metal_edges": 90222,
+          "thickness": "not in DEF; requires independent evidence"
+        }
+      },
+      {
+        "file": "aes_export.sp.gz",
+        "sha256": "11e9f34c04f2bfd69dbdb7fde5b14c7d57a26c6fafaf6f97fb8e0fcc7816a1db",
+        "coordinate_unit_m": 5e-10,
+        "coordinate_evidence": "Nangate45_data_aes.def: UNITS DISTANCE MICRONS 2000",
+        "die_bbox_m": [
+          0.0,
+          0.0,
+          0.0006201499999999999,
+          0.0006205999999999999
+        ],
+        "width_coverage": {
+          "matched": 90152,
+          "metal_edges": 90222,
+          "thickness": "not in DEF; requires independent evidence"
+        }
+      }
+    ],
+    "transforms": [
+      {},
+      {
+        "rotation_deg": 180
+      }
+    ],
+    "links": [
+      {
+        "upper": "D1/Node_metal7_248140_346230",
+        "lower": "D0/Node_metal7_828140_906230",
+        "rdl_length_m": 8.763999999999994e-05,
+        "rdl_R_ohm": 0.35055999999999976,
+        "bond_R_ohm": 0.1
+      },
+      {
+        "upper": "D1/Node_metal7_268140_346230",
+        "lower": "D0/Node_metal7_828140_906230",
+        "rdl_length_m": 7.763999999999991e-05,
+        "rdl_R_ohm": 0.3105599999999996,
+        "bond_R_ohm": 0.1
+      },
+      {
+        "upper": "D1/Node_metal7_492140_506230",
+        "lower": "D0/Node_metal7_748140_826230",
+        "rdl_length_m": 4.563999999999995e-05,
+        "rdl_R_ohm": 0.18255999999999978,
+        "bond_R_ohm": 0.1
+      },
+      {
+        "upper": "D1/Node_metal7_508140_506230",
+        "lower": "D0/Node_metal7_732140_826230",
+        "rdl_length_m": 4.563999999999995e-05,
+        "rdl_R_ohm": 0.18255999999999978,
+        "bond_R_ohm": 0.1
+      },
+      {
+        "upper": "D1/Node_metal7_732140_826230",
+        "lower": "D0/Node_metal7_508140_506230",
+        "rdl_length_m": 4.563999999999995e-05,
+        "rdl_R_ohm": 0.18255999999999978,
+        "bond_R_ohm": 0.1
+      },
+      {
+        "upper": "D1/Node_metal7_748140_826230",
+        "lower": "D0/Node_metal7_492140_506230",
+        "rdl_length_m": 4.563999999999995e-05,
+        "rdl_R_ohm": 0.18255999999999978,
+        "bond_R_ohm": 0.1
+      },
+      {
+        "upper": "D1/Node_metal7_828140_906230",
+        "lower": "D0/Node_metal7_268140_346230",
+        "rdl_length_m": 7.763999999999994e-05,
+        "rdl_R_ohm": 0.3105599999999998,
+        "bond_R_ohm": 0.1
+      }
+    ],
+    "package_R_per_port_ohm": 0.05,
+    "return_network": "ideal common VSS; VDD-only analysis",
+    "bond_scope": "lumped interdie vertical path; TSV+bond not separately extracted"
+  },
+  "die_worst_drop_V": [
+    0.04215818844442132,
+    0.043506549154010754
+  ],
+  "bond_sweep": [
+    {
+      "bond_R_ohm": 0.01,
+      "nodes_including_ground": 242055,
+      "edges": 323943,
+      "loads": 36238,
+      "edge_types": {
+        "contact": 116116,
+        "metal": 180444,
+        "diagonal_unresolved": 12182,
+        "via": 15180,
+        "package": 7,
+        "rdl": 7,
+        "bond": 7
+      },
+      "worst_drop_V": 0.043117889238687646,
+      "min_voltage_V": 1.0568821107613124,
+      "kcl_max_A": 8.327261711400195e-14,
+      "kcl_relative": 1.5207645859480136e-12,
+      "load_power_W": 0.05876054257662507,
+      "resistive_loss_W": 0.001472237481902681,
+      "source_power_W": 0.06023278007734565,
+      "power_balance_relative": 3.1241952364913346e-10
+    },
+    {
+      "bond_R_ohm": 0.1,
+      "nodes_including_ground": 242055,
+      "edges": 323943,
+      "loads": 36238,
+      "edge_types": {
+        "contact": 116116,
+        "metal": 180444,
+        "diagonal_unresolved": 12182,
+        "via": 15180,
+        "package": 7,
+        "rdl": 7,
+        "bond": 7
+      },
+      "worst_drop_V": 0.043506549154010754,
+      "min_voltage_V": 1.0564934508459893,
+      "kcl_max_A": 6.906176239879994e-14,
+      "kcl_relative": 1.261239122044974e-12,
+      "load_power_W": 0.05874985465629411,
+      "resistive_loss_W": 0.0014829254022402966,
+      "source_power_W": 0.060232780077490604,
+      "power_balance_relative": 3.147155717387632e-10
+    },
+    {
+      "bond_R_ohm": 1.0,
+      "nodes_including_ground": 242055,
+      "edges": 323943,
+      "loads": 36238,
+      "edge_types": {
+        "contact": 116116,
+        "metal": 180444,
+        "diagonal_unresolved": 12182,
+        "via": 15180,
+        "package": 7,
+        "rdl": 7,
+        "bond": 7
+      },
+      "worst_drop_V": 0.04733992502546558,
+      "min_voltage_V": 1.0526600749745345,
+      "kcl_max_A": 7.845208908370668e-14,
+      "kcl_relative": 1.4327297844957351e-12,
+      "load_power_W": 0.05864473039282452,
+      "resistive_loss_W": 0.001588049665784,
+      "source_power_W": 0.06023278007891911,
+      "power_balance_relative": 3.372015205250633e-10
+    }
+  ]
+}

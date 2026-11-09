@@ -1,0 +1,43 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: Nangate45.lef, created 22 layers, 27 vias, 135 library cells
+[INFO ODB-0127] Reading DEF file: Nangate45_data_gcd.def
+[INFO ODB-0128] Design: gcd
+[INFO ODB-0130]     Created 54 pins.
+[INFO ODB-0131]     Created 624 components and 2752 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 1248 connections.
+[INFO ODB-0133]     Created 581 nets and 1504 connections.
+[INFO ODB-0134] Finished DEF file: Nangate45_data_gcd.def
+[INFO PDN-0101] Using VDD as power net for Core domain.
+[INFO PDN-0102] Using VSS as ground net for Core domain.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING PDN-0183] Replacing existing core voltage domain.
+[INFO PDN-0001] Inserting grid: grid
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0040] All shapes on net VDD are connected.
+[INFO PSM-0015] Reading location of sources from: Vsrc_gcd_vdd.loc.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Total power      : 1.38e-04 W
+Supply voltage   : 1.10e+00 V
+Worstcase voltage: 1.10e+00 V
+Average voltage  : 1.10e+00 V
+Average IR drop  : 2.47e-04 V
+Worstcase IR drop: 6.04e-04 V
+Percentage drop  : 0.05 %
+######################################
+########## EM analysis ###############
+Net                : VDD
+Corner             : default
+Maximum current    : 5.03e-05 A
+Average current    : 1.25e-06 A
+Number of resistors: 2355
+######################################
+[INFO PSM-0015] Reading location of sources from: Vsrc_gcd_vdd.loc.

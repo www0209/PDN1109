@@ -1,0 +1,26 @@
+{
+  "heat_W": 0.06020944023827123,
+  "load_plus_nonpackage_loss_W": 0.060209440238271156,
+  "frame_m": [
+    0,
+    0,
+    0.00062015,
+    0.0006206
+  ],
+  "parameters": {
+    "ambient_K": 318.15,
+    "die_thickness_m": 5e-05,
+    "bond_thickness_m": 5e-06,
+    "bond_k_W_mK": 40.0,
+    "evidence": "Inherited StackEM scenario parameters; not a measured package; sweep before publication"
+  },
+  "padding": "none; exact AES footprints; in-plane rotation only, not face-to-face mirroring",
+  "power_bins": "16x16 in physical frame; upward-y rows; VI load + endpoint-deposited I²R",
+  "coupling": "one-way DC -> thermal; fixed extracted resistance and fixed current loads",
+  "status": "HotSpot executed",
+  "max_temperature_K": 319.80998919348593,
+  "die_max_K": [
+    319.81,
+    319.73
+  ]
+}

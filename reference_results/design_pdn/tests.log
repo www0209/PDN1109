@@ -1,0 +1,48 @@
+test_blech_screen_consistency (stackem.tests.test_core.TestClosure.test_blech_screen_consistency) ... ok
+test_closure_vs_tree_fdm (stackem.tests.test_core.TestClosure.test_closure_vs_tree_fdm) ... ok
+test_general_tree_equals_chain (stackem.tests.test_core.TestClosure.test_general_tree_equals_chain) ... ok
+test_tabulated_lookup_matches_direct (stackem.tests.test_core.TestClosure.test_tabulated_lookup_matches_direct)
+closure_tab.TabulatedProvider reproduces the wrapped provider (interpolation error only) with far fewer evaluations. ... ok
+test_default_config_roundtrip (stackem.tests.test_core.TestConfig.test_default_config_roundtrip) ... ok
+test_nucleation_interpolation (stackem.tests.test_core.TestConfig.test_nucleation_interpolation) ... ok
+test_shipped_configs (stackem.tests.test_core.TestConfig.test_shipped_configs)
+configs/base3.json spells out DEFAULT_CONFIG; the other files only change what their comment says. ... ok
+test_atomic_volume_matches_lattice (stackem.tests.test_core.TestConstants.test_atomic_volume_matches_lattice) ... ok
+test_blech_product_band (stackem.tests.test_core.TestConstants.test_blech_product_band) ... ok
+test_sigma_T_below_crit (stackem.tests.test_core.TestConstants.test_sigma_T_below_crit) ... ok
+test_verify (stackem.tests.test_core.TestConstants.test_verify) ... ok
+  [parse] 247 lines read (0.0s)
+  [dc] conductance matrix 129 x 129, 480 nnz (0.0s)
+  [dc] 5 voltage sources: 5 to ground (eliminated), 0 floating; 64 current sources (0.0s)
+  [dc] reduced system 123 unknowns, 453 nnz (0.0s)
+  [dc] LU factorised, 1348 nnz in the factors (0.0s)
+  [dc] solved (0.0s)
+test_synthetic_benchmark (stackem.tests.test_core.TestIBMPG.test_synthetic_benchmark) ... ok
+test_fdm_vs_series (stackem.tests.test_core.TestKernels.test_fdm_vs_series) ... ok
+test_kernel_dataset_rows (stackem.tests.test_core.TestKernels.test_kernel_dataset_rows) ... ok
+test_mass_conservation_blocked_tree (stackem.tests.test_core.TestKernels.test_mass_conservation_blocked_tree) ... ok
+test_profile_descriptor_roundtrip (stackem.tests.test_core.TestKernels.test_profile_descriptor_roundtrip) ... ok
+test_provider_clamps_lambda_to_trained_range (stackem.tests.test_core.TestLambdaClamp.test_provider_clamps_lambda_to_trained_range)
+Segments longer than ~0.9 mm (lam > 126 at Gamma = 6.9 um) lie outside the SKN's input range; the providers ... ok
+test_embed_thermal_shapes (stackem.tests.test_core.TestPowerGrid.test_embed_thermal_shapes) ... ok
+test_superposition_and_kcl (stackem.tests.test_core.TestPowerGrid.test_superposition_and_kcl) ... ok
+test_random_weights_forward_and_provider (stackem.tests.test_core.TestSKN.test_random_weights_forward_and_provider) ... ok
+test_per_die_strap_width (stackem.tests.test_core.TestSignoff.test_per_die_strap_width) ... ok
+test_size_strap_width_bisection (stackem.tests.test_core.TestSignoff.test_size_strap_width_bisection) ... ok
+test_analytic_and_balance (stackem.tests.test_design_pdn.DesignPDNTests.test_analytic_and_balance) ... ok
+test_branch_not_split_at_current_change (stackem.tests.test_design_pdn.DesignPDNTests.test_branch_not_split_at_current_change) ... ok
+test_conflicting_source_rejected (stackem.tests.test_design_pdn.DesignPDNTests.test_conflicting_source_rejected) ... ok
+test_disconnected_rejected (stackem.tests.test_design_pdn.DesignPDNTests.test_disconnected_rejected) ... ok
+test_field_driven_em_independent_of_encoding_rho (stackem.tests.test_design_pdn.DesignPDNTests.test_field_driven_em_independent_of_encoding_rho) ... ok
+test_missing_geometry_rejects_whole_domain (stackem.tests.test_design_pdn.DesignPDNTests.test_missing_geometry_rejects_whole_domain) ... ok
+test_no_silent_dynamic_or_floating_source (stackem.tests.test_design_pdn.DesignPDNTests.test_no_silent_dynamic_or_floating_source) ... ok
+test_parallel_resistors_retained (stackem.tests.test_design_pdn.DesignPDNTests.test_parallel_resistors_retained) ... ok
+test_power_conservation_and_bounds (stackem.tests.test_design_pdn.DesignPDNTests.test_power_conservation_and_bounds) ... ok
+test_rotation_and_finite_rdl (stackem.tests.test_design_pdn.DesignPDNTests.test_rotation_and_finite_rdl) ... ok
+test_stack_analytic (stackem.tests.test_design_pdn.DesignPDNTests.test_stack_analytic) ... ok
+test_unit_suffix (stackem.tests.test_design_pdn.DesignPDNTests.test_unit_suffix) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 4.983s
+
+OK

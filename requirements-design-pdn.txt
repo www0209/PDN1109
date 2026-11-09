@@ -1,0 +1,3 @@
+# Versions used for the executed Linux/WSL thermal and stress results.
+numpy==1.26.4
+scipy==1.11.4
